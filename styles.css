@@ -144,6 +144,7 @@ footer {
     border-radius: 8px; /* 모서리를 둥글게 만듭니다. */
     flex: 1 1 calc(33.333% - 1em); /* 플렉스 박스의 크기를 설정합니다. */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자를 설정합니다. */
+    animation: fadeIn 1s ease-in-out; /* 프로젝트 아이템에 페이드 인 애니메이션 추가 */
 }
 
 .project h3 {
@@ -172,6 +173,12 @@ footer {
     .project {
         flex: 1 1 100%;
     }
+}
+
+/* 페이드 인 애니메이션 정의 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* Contact */
@@ -243,3 +250,4 @@ video {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
