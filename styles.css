@@ -143,16 +143,20 @@ footer {
 }
 
 @media (max-width: 768px) {
+    /* 네비게이션 아이템을 블록 형식으로 변경 */
     nav ul li {
         display: block;
         margin: 1em 0;
     }
     
+    /* 프로젝트 리스트를 수직 방향으로 정렬 */
     #project-list {
         flex-direction: column;
     }
     
+    /* 프로젝트 아이템의 크기를 100%로 설정 */
     .project {
         flex: 1 1 100%;
     }
 }
+
