@@ -31,7 +31,7 @@ Portfolio는 HTML, CSS, JavaScript를 사용하여 만든 개인 포트폴리오
 웹사이트를 열고 각 섹션을 탐색하여 본인의 정보를 확인할 수 있습니다. 'Contact' 섹션을 통해 연락할 수 있습니다.
 
 
-#### 프로젝트 구조
+## 프로젝트 구조
 ```
 Portfolio/
 ├── index.html
@@ -40,6 +40,8 @@ Portfolio/
 ├── README.md
 └── LICENSE
 ```
+
+## 규칙
 
 #### 코딩 컨벤션
 - **HTML**: 들여쓰기는 2칸을 사용합니다.
