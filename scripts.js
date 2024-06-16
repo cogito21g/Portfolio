@@ -29,6 +29,12 @@ document.addEventListener("DOMContentLoaded", function() {
         setLanguage(event.target.value);
     });
 
+    // 다크 모드 전환 기능
+    const toggleDarkMode = document.getElementById("toggle-dark-mode");
+    toggleDarkMode.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+    });
+
     // 프로젝트 목록을 정의합니다.
     const projects = [
         { title: "Project 1", description: "Description of project 1", link: "project1.html" },
