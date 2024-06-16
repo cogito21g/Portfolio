@@ -37,3 +37,20 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+/* About Me */
+#about {
+    background-color: #f9f9f9; /* 배경색을 설정합니다. */
+    padding: 2em; /* 패딩을 설정합니다. */
+    margin-top: 2em; /* 상단 여백을 설정합니다. */
+    border-radius: 8px; /* 모서리를 둥글게 만듭니다. */
+}
+
+#about h2 {
+    color: #333; /* 제목 색상을 설정합니다. */
+}
+
+#about p {
+    color: #666; /* 본문 색상을 설정합니다. */
+    line-height: 1.6; /* 행간을 설정합니다. */
+}
