@@ -95,3 +95,40 @@ footer {
     display: inline-block; /* 인라인 블록으로 설정합니다. */
     margin-top: 1em; /* 상단 여백을 설정합니다. */
 }
+
+/* Contact */
+#contact {
+    background-color: #f9f9f9; /* 배경색을 설정합니다. */
+    padding: 2em; /* 패딩을 설정합니다. */
+    margin-top: 2em; /* 상단 여백을 설정합니다. */
+    border-radius: 8px; /* 모서리를 둥글게 만듭니다. */
+}
+
+#contact h2 {
+    color: #333; /* 제목 색상을 설정합니다. */
+}
+
+#contact-form {
+    display: flex; /* 플렉스 박스로 설정합니다. */
+    flex-direction: column; /* 수직 방향으로 아이템을 정렬합니다. */
+    gap: 1em; /* 아이템 간의 간격을 설정합니다. */
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 1em; /* 패딩을 설정합니다. */
+    border: 1px solid #ddd; /* 테두리를 설정합니다. */
+    border-radius: 4px; /* 모서리를 둥글게 만듭니다. */
+    font-size: 1em; /* 폰트 크기를 설정합니다. */
+}
+
+#contact-form button {
+    padding: 1em; /* 패딩을 설정합니다. */
+    background-color: #007BFF; /* 배경색을 설정합니다. */
+    color: #fff; /* 텍스트 색상을 설정합니다. */
+    border: none; /* 테두리를 제거합니다. */
+    border-radius: 4px; /* 모서리를 둥글게 만듭니다. */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경합니다. */
+    font-size: 1em; /* 폰트 크기를 설정합니다. */
+}
+
