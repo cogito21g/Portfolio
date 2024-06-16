@@ -1,5 +1,34 @@
 // DOMContentLoaded 이벤트가 발생하면 실행됩니다.
 document.addEventListener("DOMContentLoaded", function() {
+    // 번역 데이터를 정의합니다.
+    const translations = {
+        en: {
+            about: "About Me",
+            projects: "Projects",
+            contact: "Contact",
+            // 추가 번역...
+        },
+        kr: {
+            about: "소개",
+            projects: "프로젝트",
+            contact: "연락처",
+            // 추가 번역...
+        }
+    };
+
+    // 선택된 언어에 따라 텍스트를 변경합니다.
+    function setLanguage(language) {
+        document.getElementById("about").textContent = translations[language].about;
+        document.getElementById("projects").textContent = translations[language].projects;
+        document.getElementById("contact").textContent = translations[language].contact;
+        // 나머지 번역도 추가...
+    }
+
+    // 언어 선택기에서 언어가 변경될 때 이벤트를 처리합니다.
+    document.getElementById("language-selector").addEventListener("change", function(event) {
+        setLanguage(event.target.value);
+    });
+
     // 프로젝트 목록을 정의합니다.
     const projects = [
         { title: "Project 1", description: "Description of project 1", link: "project1.html" },
