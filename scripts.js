@@ -32,6 +32,14 @@ document.addEventListener("DOMContentLoaded", function() {
         projectList.appendChild(projectDiv);
     });
 
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    // 메뉴 버튼 클릭 이벤트를 처리합니다.
+    menuToggle.addEventListener("click", function() {
+        navLinks.classList.toggle("show");
+    });
+
     // 연락처 폼 제출 이벤트를 처리합니다.
     const contactForm = document.getElementById("contact-form");
     contactForm.addEventListener("submit", function(event) {
