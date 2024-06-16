@@ -69,10 +69,23 @@ document.addEventListener("DOMContentLoaded", function() {
         navLinks.classList.toggle("show");
     });
 
+    // 키보드 내비게이션 지원
+    const navLinks_a = document.querySelectorAll('#nav-links a');
+    navLinks_a.forEach(link => {
+        link.addEventListener('focus', () => {
+            link.style.outline = '2px solid #007BFF';
+        });
+        link.addEventListener('blur', () => {
+            link.style.outline = 'none';
+        });
+        });
+
     // 연락처 폼 제출 이벤트를 처리합니다.
     const contactForm = document.getElementById("contact-form");
     contactForm.addEventListener("submit", function(event) {
         event.preventDefault(); // 폼 제출을 막습니다.
         alert("Form submitted!"); // 폼 제출 시 알림을 표시합니다.
     });
+
+
 });
