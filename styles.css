@@ -143,9 +143,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 1em 0;
+    }
+    
     #project-list {
         flex-direction: column;
     }
+    
     .project {
         flex: 1 1 100%;
     }
