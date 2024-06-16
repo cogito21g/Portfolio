@@ -54,3 +54,44 @@ footer {
     color: #666; /* 본문 색상을 설정합니다. */
     line-height: 1.6; /* 행간을 설정합니다. */
 }
+
+/* Projects */
+#projects {
+    background-color: #fff; /* 배경색을 설정합니다. */
+    padding: 2em; /* 패딩을 설정합니다. */
+    margin-top: 2em; /* 상단 여백을 설정합니다. */
+    border-radius: 8px; /* 모서리를 둥글게 만듭니다. */
+}
+
+#projects h2 {
+    color: #333; /* 제목 색상을 설정합니다. */
+}
+
+#project-list {
+    display: flex; /* 플렉스 박스로 설정합니다. */
+    flex-wrap: wrap; /* 줄바꿈을 허용합니다. */
+    gap: 1em; /* 아이템 간의 간격을 설정합니다. */
+}
+
+.project {
+    background-color: #f4f4f4; /* 배경색을 설정합니다. */
+    padding: 1em; /* 패딩을 설정합니다. */
+    border-radius: 8px; /* 모서리를 둥글게 만듭니다. */
+    flex: 1 1 calc(33.333% - 1em); /* 플렉스 박스의 크기를 설정합니다. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자를 설정합니다. */
+}
+
+.project h3 {
+    color: #333; /* 제목 색상을 설정합니다. */
+}
+
+.project p {
+    color: #666; /* 본문 색상을 설정합니다. */
+}
+
+.project a {
+    color: #007BFF; /* 링크 색상을 설정합니다. */
+    text-decoration: none; /* 링크의 밑줄을 제거합니다. */
+    display: inline-block; /* 인라인 블록으로 설정합니다. */
+    margin-top: 1em; /* 상단 여백을 설정합니다. */
+}
