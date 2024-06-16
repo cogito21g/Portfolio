@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="styles.css"> <!-- 스타일 시트를 연결합니다. -->
 </head>
 <body>
-    <header>
+    <header role="banner">
         <h1>My Portfolio</h1>
-        <nav id="navbar">
-            <button id="menu-toggle">☰</button> <!-- 모바일 메뉴 버튼 -->
-            <ul id="nav-links">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav id="navbar" role="navigation">
+            <button id="menu-toggle" aria-controls="nav-links" aria-expanded="false">☰</button> <!-- 모바일 메뉴 버튼 -->
+            <ul id="nav-links" role="menubar">
+                <li role="none"><a role="menuitem" href="#about">About Me</a></li>
+                <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+                <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
             </ul>
         </nav>
         <select id="language-selector">
@@ -24,6 +24,7 @@
             <option value="kr">한국어</option>
         </select> <!-- 언어 선택기 추가 -->
     </header>
+    
     
 
     <section id="about">
