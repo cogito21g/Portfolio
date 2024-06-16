@@ -2,9 +2,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     // 프로젝트 목록을 정의합니다.
     const projects = [
-        { title: "Project 1", description: "Description of project 1", link: "#" },
-        { title: "Project 2", description: "Description of project 2", link: "#" },
-        { title: "Project 3", description: "Description of project 3", link: "#" }
+        { title: "Project 1", description: "Description of project 1", link: "project1.html" },
+        { title: "Project 2", description: "Description of project 2", link: "project2.html" },
+        { title: "Project 3", description: "Description of project 3", link: "project3.html" }
     ];
 
     // 프로젝트 리스트 요소를 가져옵니다.
